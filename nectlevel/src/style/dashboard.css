@@ -1,0 +1,15 @@
+*{
+    background-color: beige;
+}
+.container{
+    background:linear-gradient(179.49deg, #0E122D 1.65%, #080612 24.36%, #0E122D 51.31%, #1A2C66 99.56%);
+    display: flex;
+    flex-direction: row;
+}
+.right{
+    background-color: aqua;
+    height: 100%;
+}
+.left{
+    background-color:aquamarine;
+}

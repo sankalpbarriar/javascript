@@ -1,0 +1,31 @@
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:red;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  width: 152px;
+  height: 51px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 30px;
+  outline: none;
+  cursor: pointer;
+  background-color: #23c4ed;
+  
+}
+#value{
+    font-size:xx-large;
+    padding-bottom:182px;
+}
+.centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    heoght:72px;
+}

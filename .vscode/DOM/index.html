@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1 id="js">Hello javascript</h1>
+    <ul>
+        <li class="tech">ONE</li>
+        <li class="tech">TWO</li>
+        <li class="tech">THREE</li>
+    </ul>
+    <script>
+        // console.log(document);
+        // console.log(window.document);
+        // console.log(document.documentElement);
+        // console.log(document.body.firstChild);
+        // console.log(document.documentElement.firstChild);
+        // var value=document.getElementById("js");
+        // console.log(value);
+        let val =document.getElementsByClassName("tech");
+        console.log(val[0].innerText);    //getElemetbyClassName returns an Array
+    </script>
+    
+</body>
+</html>

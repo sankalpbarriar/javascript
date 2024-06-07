@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- whatever we are writing inside input tag should be passed to <p> tag -->
+<body>
+    Enter your name:
+    <input type="text" name="name" id="input">
+    <p id="js"></p>
+    <script>
+        document.addEventListener("input",input);
+        function input(){
+            var one=document.getElementById("input").value;
+            document.getElementById("js").innerText="You are writing:> "+one.toUpperCase();
+        }
+    </script>
+</body>
+</html>
